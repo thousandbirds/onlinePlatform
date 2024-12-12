@@ -1,0 +1,125 @@
+/*Обнуленя*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+/*--------------------*/
+
+body{
+    background-color: rgba(61, 43, 33, 0.863);
+}
+
+.table{
+    margin: 10px 0 0 10px;
+}
+
+.upper__item{
+    font-family: Open Sans;
+    font-weight: 600;
+    background-color: rgb(151, 46, 46);
+    color: #fff;
+
+    padding: 10px;
+}
+
+.item__update{
+    background-color: rgb(39, 145, 83);
+}
+
+.lower__item__update a{
+    font-family: Open Sans;
+    font-weight: 700;
+    color: rgb(39, 145, 83);
+    transition: all .2s linear;
+}
+
+.lower__item__update a:hover{
+    color: rgb(119, 38, 38)
+}
+
+.item__del{
+    background-color: rgb(55, 39, 145);
+}
+
+.lower__item__del a{
+    font-family: Open Sans;
+    font-weight: 700;
+    color: rgb(55, 39, 145);
+    transition: all .2s linear;
+}
+
+.lower__item__del a:hover{
+    color: rgb(119, 38, 38)
+}
+
+.item__view{
+    background-color: rgb(69, 125, 199);
+}
+
+.lower__item__view a{
+    font-family: Open Sans;
+    font-weight: 700;
+    color: rgb(69, 125, 199);
+    transition: all .2s linear;
+}
+
+.lower__item__view a:hover{
+    color: rgb(119, 38, 38)
+}
+
+.lower__item{
+    font-family: Open Sans;
+    font-weight: 600;
+    background-color: rgb(102, 101, 101);   
+
+    padding: 10px;
+}
+
+.form{
+    margin: 10px 0 0 10px;   
+    display: flex;
+    flex-direction: column;
+}
+
+.form p{
+    font-family: Roboto;
+    font-weight: 500;
+    color: rgb(216, 215, 215);
+    padding: 10px 0 5px 0;
+}
+
+.input{
+    width: 200px;
+    height: 30px;
+    border-radius: 4px;
+}
+
+.field{
+    width: 200px;
+    height: 60px;
+    border-radius: 4px;
+}
+
+.btn__submit{
+    width: 200px;
+    height: 30px;
+    border-radius: 4px;
+    margin-top: 10px;
+
+    font-family: Roboto;
+    font-weight: 500;
+}
+
+.opacity{
+    opacity: 0;
+}
